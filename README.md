@@ -6,9 +6,10 @@ A comprehensive data science project analyzing Exchange-Traded Funds (ETFs) usin
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes real-world ETF market data to demonstrate:
+
 - Data loading and inspection
 - DataFrame manipulation and transformation
 - Data merging and concatenation
@@ -20,11 +21,12 @@ This project analyzes real-world ETF market data to demonstrate:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The project uses two main datasets:
 
 ### **1. ETFs.csv** - Details about 2,310 ETFs
+
 - Fund symbols, names, categories
 - Fund families and management details
 - Fees and expense ratios
@@ -32,6 +34,7 @@ The project uses two main datasets:
 - **Size:** ~17 MB
 
 ### **2. ETF prices.csv** - Daily price history
+
 - 3.8M+ price records
 - Date, open, high, low, close prices
 - Trading volume
@@ -41,7 +44,7 @@ The project uses two main datasets:
 
 ---
 
-## 📥 How to Get the Dataset
+## How to Get the Dataset
 
 **The CSV files are NOT included in this repository due to their size.**
 
@@ -58,35 +61,40 @@ The project uses two main datasets:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **1. Clone the repository:**
+
 ```bash
 git clone https://github.com/Qyuzet/etf-data-analysis-pandas.git
 cd etf-data-analysis-pandas
 ```
 
 ### **2. Download the dataset:**
+
 - Download CSV files from [Releases](https://github.com/Qyuzet/etf-data-analysis-pandas/releases)
 - Place them in `finance_data/` folder
 
 ### **3. Install dependencies:**
+
 ```bash
 pip install pandas numpy scikit-learn jupyter
 ```
 
 ### **4. Launch Jupyter Notebook:**
+
 ```bash
 jupyter notebook etfs-comparators.ipynb
 ```
 
 ### **5. Run the analysis:**
+
 - In Jupyter: `Cell → Run All`
 - Or run cells sequentially with `Shift + Enter`
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 etf-data-analysis-pandas/
@@ -100,13 +108,14 @@ etf-data-analysis-pandas/
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 ```bash
 pip install pandas numpy scikit-learn jupyter
 ```
 
 **Versions used:**
+
 - Python 3.8+
 - pandas 1.3.0+
 - numpy 1.21.0+
@@ -115,7 +124,7 @@ pip install pandas numpy scikit-learn jupyter
 
 ---
 
-## 📚 What's Inside
+## What's Inside
 
 ### **Core Analysis (Steps 1-16)**
 
@@ -143,9 +152,10 @@ pip install pandas numpy scikit-learn jupyter
 
 ---
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 
 ### **Technical Skills**
+
 - Python programming
 - Pandas data manipulation
 - NumPy numerical operations
@@ -156,6 +166,7 @@ pip install pandas numpy scikit-learn jupyter
 - Feature engineering
 
 ### **Data Science Skills**
+
 - Exploratory data analysis (EDA)
 - Data cleaning and preprocessing
 - Missing value imputation
@@ -166,22 +177,23 @@ pip install pandas numpy scikit-learn jupyter
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-- ✅ Comprehensive data cleaning pipeline
-- ✅ Real-world financial data analysis
-- ✅ Advanced pandas operations
-- ✅ Professional missing value handling
-- ✅ Text processing with regex
-- ✅ Nested JSON data parsing
-- ✅ Well-documented code
-- ✅ Reproducible analysis
+- Comprehensive data cleaning pipeline
+- Real-world financial data analysis
+- Advanced pandas operations
+- Professional missing value handling
+- Text processing with regex
+- Nested JSON data parsing
+- Well-documented code
+- Reproducible analysis
 
 ---
 
-## 📊 Results & Insights
+## Results & Insights
 
 The analysis provides insights into:
+
 - ETF performance patterns
 - Trading volume trends
 - Fund family comparisons
@@ -190,37 +202,38 @@ The analysis provides insights into:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-- [ ] Add data visualization with matplotlib/seaborn
-- [ ] Implement time series analysis
-- [ ] Build predictive models
-- [ ] Create interactive dashboards
-- [ ] Add more ETF metrics and indicators
+- Add data visualization with matplotlib/seaborn
+- Implement time series analysis
+- Build predictive models
+- Create interactive dashboards
+- Add more ETF metrics and indicators
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project. Suggestions and improvements are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Riki Awal Syahputra**
+
 - GitHub: [@Qyuzet](https://github.com/Qyuzet)
 - Project Link: [https://github.com/Qyuzet/etf-data-analysis-pandas](https://github.com/Qyuzet/etf-data-analysis-pandas)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Data Science Fundamentals Course
 - Pandas documentation and community
@@ -228,5 +241,4 @@ This project is for educational purposes.
 
 ---
 
-**⭐ If you find this project helpful, please give it a star!**
-
+**If you find this project helpful, please give it a star!**
